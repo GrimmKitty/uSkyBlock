@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-09-21 20:53+0200\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-08-23 13:22+0100\n"
 "Last-Translator: Error203\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -131,7 +132,7 @@ msgstr "§aВы выполнили задание {0} !"
 
 #, java-format
 msgid "§9{0}§f has completed the §9{1}§f challenge!"
-msgstr ""
+msgstr "§9 {0} §f завершил § 9 {1} §f вызов!"
 
 #, java-format
 msgid "§eItem reward(s): §f{0}"
@@ -304,7 +305,7 @@ msgid "removes the player from the island"
 msgstr "удаление игрока с острова"
 
 msgid "adds the player to the island"
-msgstr ""
+msgstr "добавляет игроку острова"
 
 #, java-format
 msgid "§b{0}§d has joined your island group."
@@ -312,12 +313,14 @@ msgstr "§b{0}§d присоединился к вашему острову."
 
 #, java-format
 msgid "§4No player named {0} found!"
-msgstr ""
+msgstr "§ 4 Ни один игрок с именем {0} не найдено!"
 
 msgid ""
 "§4No valid island provided, either stand within one, or provide an island "
 "name"
 msgstr ""
+"§4No действительный остров при условии, либо стоять в пределах одного, или "
+"предоставить имя острова"
 
 msgid "print out info about the island"
 msgstr "вывод информации об острове"
@@ -399,7 +402,7 @@ msgid "§4{0}s island at {1} was already protected"
 msgstr "§4Остров {0} в {1} уже был защищен"
 
 msgid "open GUI for config"
-msgstr ""
+msgstr "открыт графический интерфейс для конфигурации"
 
 msgid "§eInvalid configuration name"
 msgstr ""
@@ -425,7 +428,7 @@ msgid "Invalid command supplied, only restart and biome supported!"
 msgstr "Неверная команда, только перезапуск и биом поддерживаются"
 
 msgid "restarts the cooldown on the command"
-msgstr ""
+msgstr "перезапускает время перезарядки по команде"
 
 #, java-format
 msgid "§eReset cooldown on {0} for {1}§e to {2} seconds"
@@ -483,12 +486,13 @@ msgid "§4No flatland detected at {0}'s island!"
 msgstr "§4Равнина не найдена на острове {0}!"
 
 msgid "flushes all caches to files"
-msgstr ""
+msgstr "очистить все кэши к файлам"
 
 #, java-format
 msgid ""
 "§eFlushed §a{0} islands§e, §b{1} players and §6{2} challenge-completions."
 msgstr ""
+"§eПромываемое §a {0} острова§e, §b {1} игроков и § 6 {2} вызов-пополнений."
 
 msgid "manually update the top 10 list"
 msgstr "ручное обновление списка ТОП 10"
@@ -531,52 +535,52 @@ msgid "imports players and islands from other formats"
 msgstr "импортирование игроков и островов в другие форматы"
 
 msgid "§9Job Statistics"
-msgstr ""
+msgstr "§9Job Статистика"
 
 msgid "§7----------------"
-msgstr ""
+msgstr "§7------------------------------"
 
 msgid "#"
-msgstr ""
+msgstr "#"
 
 msgid "ms/job"
-msgstr ""
+msgstr "ms/работа"
 
 msgid "ms/tick"
-msgstr ""
+msgstr "ms/ТИК"
 
 msgid "ticks"
-msgstr ""
+msgstr "тиков"
 
 msgid "act"
-msgstr ""
+msgstr "акт"
 
 msgid "time"
-msgstr ""
+msgstr "время"
 
 msgid "name"
-msgstr ""
+msgstr "имя"
 
 msgid "changes the language of the plugin, and reloads"
-msgstr ""
+msgstr "изменяет язык плагина, и перезагружается"
 
 #, java-format
 msgid "§aSuccessfully changed language to §e{0}"
-msgstr ""
+msgstr "§aуспешно изменен язык §e {0}"
 
 #, java-format
 msgid "§cFailed to change language to §e{0}"
-msgstr ""
+msgstr "§cНе удалось изменить язык §e{0}"
 
 msgid "§9Supported Languages:\n"
-msgstr ""
+msgstr "§9Поддерживаемые Языки:\n"
 
 #, java-format
 msgid "§f{0} §7{1} §9 by {2} §7{3}\n"
-msgstr ""
+msgstr "§f{0} §7{1} §9 by {2} §7{3}\n"
 
 msgid "§cUnable to locate any languages."
-msgstr ""
+msgstr "§cНе удалось найти каких-либо языков."
 
 msgid "transfer leadership to another player"
 msgstr "сделать хозяином другого игрока"
@@ -812,7 +816,7 @@ msgid "- PURGING: {0,number,##}% ({1}/{2}) ~ {3}"
 msgstr ""
 
 msgid "§4PURGE:§9 Finished purging abandoned islands."
-msgstr ""
+msgstr "§4ПРОДУВКА: §9 Закончено продувкой заброшенных островов."
 
 msgid "§4PURGE:§9 Aborted purging abandoned islands."
 msgstr ""
@@ -1009,7 +1013,7 @@ msgstr "§eВы запретили игроку §4{0}§e посещать ва�
 
 #, java-format
 msgid "§eYou have been §cBANNED§e from {0}§e''s island."
-msgstr ""
+msgstr "§eВы были §cзапретило §eот {0} §eострова'' s."
 
 #, java-format
 msgid "§eYou have unbanned §a{0}§e from warping to your island."
@@ -1017,7 +1021,7 @@ msgstr "§eВы разрешили игроку §a{0}§e посещать ва�
 
 #, java-format
 msgid "§eYou have been §aUNBANNED§e from {0}§e''s island."
-msgstr ""
+msgstr "§eВы были §aUNBANNED§e из {0}§e''s остров."
 
 msgid "change the biome of the island"
 msgstr "изменение биома острова"
@@ -1047,6 +1051,24 @@ msgstr ""
 msgid "§eYou can change your biome again in {0,number,#} minutes."
 msgstr "§eВы сможете изменить биом снова через {0,number,#} мин."
 
+msgid "§cYou do not have permission to change your biome to that type."
+msgstr "§cУ вас недостаточно прав для изменения биома острова на указанный."
+
+#, java-format
+msgid ""
+"§7The pixies are busy changing the biome near you to §9{0}§7, be patient."
+msgstr ""
+
+#, java-format
+msgid ""
+"§7The pixies are busy changing the biome of your island to §9{0}§7, be "
+"patient."
+msgstr ""
+
+#, java-format
+msgid "§eInvalid biome {0} supplied!"
+msgstr ""
+
 #, java-format
 msgid "§aYou have changed your island''s biome to {0}"
 msgstr "§aВы изменили биом острова на {0}"
@@ -1055,8 +1077,13 @@ msgstr "§aВы изменили биом острова на {0}"
 msgid "{0} changed the island biome to {1}"
 msgstr "{0} изменил биом острова на {1}"
 
-msgid "§cYou do not have permission to change your biome to that type."
-msgstr "§cУ вас недостаточно прав для изменения биома острова на указанный."
+#, java-format
+msgid "§aYou have changed {0} blocks around you to the {1} biome"
+msgstr ""
+
+#, java-format
+msgid "{0} created an area with {1} biome"
+msgstr ""
 
 msgid "create an island"
 msgstr "создание острова"
@@ -1244,7 +1271,7 @@ msgid "§4You do not have permission to unlock your island!"
 msgstr "§4У вас недостаточно прав для разблокировки вашего острова!"
 
 msgid "display log"
-msgstr ""
+msgstr "журнал дисплей"
 
 msgid "transfer leadership to another member"
 msgstr "передать лидерство другому игроку"
@@ -1348,7 +1375,7 @@ msgstr ""
 
 #, java-format
 msgid "§b{0}§d activated the island warp."
-msgstr ""
+msgstr "§b{0}§d активировал остров перекос."
 
 #, java-format
 msgid "§b{0}§d deactivated the island warp."
@@ -1388,7 +1415,7 @@ msgstr "§eВам не доверяют на острове §4{0}."
 
 #, java-format
 msgid "§a{0} trusted {1} on the island"
-msgstr ""
+msgstr "§a {0} доверенный {1} на острове"
 
 #, java-format
 msgid "§eYou are no longer trusted on §4{0}'s §eisland."
@@ -1396,7 +1423,7 @@ msgstr "§eВам больше не доверяют на острове §4{0}.
 
 #, java-format
 msgid "§c{0} revoked trust in {1} on the island"
-msgstr ""
+msgstr "§c{0} отозвана доверие {1} на острове"
 
 msgid "warp to another player's island"
 msgstr "перемещение на остров другого игрока"
@@ -1486,22 +1513,24 @@ msgid "{0}''s Wither"
 msgstr ""
 
 msgid "§eVisitors can't drop items!"
-msgstr ""
+msgstr "§eПосетители не могут упасть детали!"
 
 #, java-format
 msgid "Owner: {0}"
-msgstr ""
+msgstr "владелец: {0}"
 
 msgid "You cannot pick up other players' loot when you are a visitor!"
-msgstr ""
+msgstr "Вы не можете забрать награбленное других игроков, когда вы гость!"
 
 msgid "Config:"
-msgstr ""
+msgstr "конфиг:"
 
 msgid ""
 "§cNo Access! §eYou are trying to teleport to the roof of the §cNETHER§e, "
 "that is not allowed."
 msgstr ""
+"§cНет доступа! §eYou пытаются телепортироваться на крышу §cNETHER§e, что не "
+"допускается."
 
 msgid "§4You can only convert obsidian once every 10 seconds"
 msgstr ""
@@ -1522,7 +1551,7 @@ msgid "§4That player has forbidden you from teleporting to their island."
 msgstr "§4Этот игрок запретил вам телепортироваться на свой остров."
 
 msgid "§4That island is §clocked.§e No teleporting to the island."
-msgstr ""
+msgstr "§4Этот остров §clocked.§e Нет телепортации на остров."
 
 msgid "§cYou have reached your spawn-limit for your island."
 msgstr "§cВы достигли предела спавнов на вашем острове."
@@ -1531,18 +1560,19 @@ msgid "§eYou can only use spawn-eggs on your own island."
 msgstr "§eВы можете использовать спавн-яйца только на своем острове."
 
 msgid "§cBanned:§e You are banned from this island."
-msgstr ""
+msgstr "§cBanned:§e Вы запрещены с этого острова."
 
 msgid "§cLocked:§e That island is locked! No entry allowed."
 msgstr ""
+"§cзапертый:§e Этот остров заблокирован! Ни одна из записей не допускается."
 
 #, java-format
 msgid "§eWaiting for our turn §c{0,number,###}%"
-msgstr ""
+msgstr "§eВ ожидании своей очереди §c{0,number,##.#}"
 
 #, java-format
 msgid "§9Creating island...§e{0,number,###}%"
-msgstr ""
+msgstr "§9Создание острова... §e{0,number,##.#}"
 
 #, java-format
 msgid "§9{0}§7 timed out"
@@ -1557,21 +1587,21 @@ msgstr ""
 "подтверждения!"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "§4** You are entering a protected - but abandoned - island area."
 msgstr "§4** Вы входите на защищенный, но заброшенный остров."
 
 #, java-format
 msgid "§d** You are entering §b{0}''s §disland."
-msgstr ""
+msgstr "§d** Вы входите §b{0}''s §dостров."
 
 msgid "§4** You are leaving an abandoned island."
 msgstr "§4** Вы покидаете заброшенный остров."
 
 #, java-format
 msgid "§d** You are leaving §b{0}''s §disland."
-msgstr ""
+msgstr "§d** Вы покидаете §b{0}''s §dостров."
 
 msgid "§eYour island is now locked. Only your party members may enter."
 msgstr ""
@@ -1641,18 +1671,18 @@ msgid "§7 - MojangAPI:§cERROR: {0}"
 msgstr ""
 
 msgid "The island has been created."
-msgstr ""
+msgstr "Остров был создан."
 
 #, java-format
 msgid "§b{0}§d locked the island."
-msgstr ""
+msgstr "§b{0}§d запер остров."
 
 msgid "§4Since your island is locked, your incoming warp has been deactivated."
 msgstr "§4С момента закрытия острова точка перемещения деактивирована."
 
 #, java-format
 msgid "§b{0}§d unlocked the island."
-msgstr ""
+msgstr "§b{0}§d разблокировать остров."
 
 #, java-format
 msgid "§cSKY §f> §7 {0}"
@@ -1664,7 +1694,7 @@ msgstr "§b{0}§d удален из участников острова."
 
 #, java-format
 msgid "§9{1} §7- {0}"
-msgstr ""
+msgstr "§9{1} §7- {0}"
 
 msgid "§9Creating an island at your location"
 msgstr ""
@@ -1677,6 +1707,8 @@ msgid ""
 "§cThe island owning this piece of nether is being deleted! Sending you to "
 "spawn."
 msgstr ""
+"§cОстров владеющим этот кусок тартарары время удаления! Отправка вам на "
+"нерест."
 
 msgid "§cThe island you are on is being deleted! Sending you to spawn."
 msgstr "§cОстров, на котором вы находитесь - удален! Телепортация на спавн."
@@ -1724,66 +1756,57 @@ msgid "Unable to locate schematic {0}, contact a server-admin"
 msgstr ""
 
 msgid "§aCongratulations! §eYour island has appeared."
-msgstr ""
+msgstr "§aПоздравления! §eВаш остров появился."
 
 msgid "§cNote:§e Construction might still be ongoing."
-msgstr ""
+msgstr "§cЗаметка:§e Строительство все еще может быть на постоянной основе."
 
 msgid "Use §9/is h§r or the §9/is§r menu to go there."
-msgstr ""
+msgstr "использование §9/is h§r или §9/is§r меню, чтобы пойти туда."
 
 #, java-format
 msgid "§cWatchdog!§9 Unable to locate a chest within {0}, bailing out."
 msgstr ""
+"§cСторожевая собака!§9 Не удалось найти сундук в пределах {0}, выручая."
 
 #, java-format
 msgid "§7Page {0}"
 msgstr ""
 
-msgid "§c-"
+#, java-format
+msgid "§c{0,number,#}"
 msgstr ""
 
-msgid "§a+"
+#, java-format
+msgid "§a+{0,number,#}"
 msgstr ""
 
-msgid "§c-1000"
+#, java-format
+msgid "§a{0,number,#}"
 msgstr ""
 
-msgid "§c-100"
+#, java-format
+msgid "&aLeft:&7 Increment with {0}"
 msgstr ""
 
-msgid "§c-10"
-msgstr ""
-
-msgid "§c-1"
-msgstr ""
-
-msgid "§a+1"
-msgstr ""
-
-msgid "§a+10"
-msgstr ""
-
-msgid "§a+100"
-msgstr ""
-
-msgid "§a+1000"
+#, java-format
+msgid "&cRight-Click:&7 Set to {0}"
 msgstr ""
 
 msgid "Return"
-msgstr ""
+msgstr "Вернуть"
 
 msgid "§9Integer Editor"
-msgstr ""
+msgstr "§9Integer редактор"
 
 msgid "§9Item List Editor"
-msgstr ""
+msgstr "§9Пункт Редактор списка"
 
 msgid "§eConfiguration saved and reloaded."
-msgstr ""
+msgstr "§eКонфигурация сохранена и перезагружается."
 
 msgid "§cError! §9Unable to save config file!"
-msgstr ""
+msgstr "§cошибка! §9Unable to save config file!"
 
 msgid "§3First Page"
 msgstr ""
@@ -1792,22 +1815,25 @@ msgid "§3Last Page"
 msgstr ""
 
 msgid "§cSave & Reload config"
-msgstr ""
+msgstr "§cСохранить & Перезагрузить конфигурации"
 
 msgid ""
 "§7Saves the settings to\n"
 "§7file & reloads again.\n"
 "§cNote: §7Use with care!"
 msgstr ""
+"§7Сохранение настроек в\n"
+"§7файл и перезагружает снова.\n"
+"§cЗаметка: §7Используйте с осторожностью!"
 
 msgid "§7 (readonly)"
-msgstr ""
+msgstr "§7 (только для чтения)"
 
 msgid "true"
-msgstr ""
+msgstr "правда"
 
 msgid "false"
-msgstr ""
+msgstr "ложный"
 
 msgid "Challenge Menu"
 msgstr "Меню заданий"
@@ -1865,101 +1891,6 @@ msgstr ""
 "других игроков с острова,\n"
 "но выкинуть хозяина острова\n"
 "невозможно."
-
-msgid "Permissions"
-msgstr ""
-
-#, java-format
-msgid "{0} <{1}>"
-msgstr ""
-
-msgid "§9Player Permissions"
-msgstr ""
-
-msgid ""
-"§eClick here to return to\n"
-"§eyour island group's info."
-msgstr ""
-"§eНажмите для возврата\n"
-"§eк информации о группе острова."
-
-msgid ""
-"§eHover over an icon to view\n"
-"§ea permission. Change the\n"
-"§epermission by clicking it."
-msgstr ""
-"§eНаведите на иконку для просмотра\n"
-"§eправ. Изменить их\n"
-"§eможно по клику."
-
-msgid "§fThis player §acan"
-msgstr "§fИгрок §aможет"
-
-msgid "Click here to remove this permission."
-msgstr "Нажмите для запрещения"
-
-msgid "§fThis player §ccannot"
-msgstr "§fИгрок §cне может"
-
-msgid "Click here to grant this permission."
-msgstr "Нажмите для разрешения"
-
-msgid "Island Group Members"
-msgstr "Участники группы островов"
-
-#, java-format
-msgid "Group Members: §2{0}§7/§e{1}"
-msgstr "Участники группыs: §2{0}§7/§e{1}"
-
-msgid "§aMore players can be invited to this island."
-msgstr "§aМожно пригласить еще участников."
-
-msgid "§cThis island is full."
-msgstr "§cОстров заполнен."
-
-msgid ""
-"§eHover over a player's icon to\n"
-"§eview their permissions. The\n"
-"§eleader can change permissions\n"
-"§eby clicking a player's icon."
-msgstr ""
-"§eНаведите на иконку игрока\n"
-"§eдля просмотра его прав.\n"
-"§eВладелец острова может изменять\n"
-"§eих по клику на иконке игрока."
-
-msgid "Leader"
-msgstr "Хозяин"
-
-msgid "Member"
-msgstr "Участник"
-
-#, java-format
-msgid "Can {0}"
-msgstr "Может {0}"
-
-#, java-format
-msgid "Cannot {0}"
-msgstr "Не может {0}"
-
-msgid "§e<Click to change this player's permissions>"
-msgstr "§e<нажмите для изменения прав игрока>"
-
-msgid "Island Log"
-msgstr "Журнал острова"
-
-msgid ""
-"§eClick here to return to\n"
-"§ethe main island screen."
-msgstr ""
-"§eНажмите для возврата\n"
-"§eв главное меню острова."
-
-msgid "§e§lIsland Log"
-msgstr "§e§lЖурнал острова"
-
-msgid "Island Biome"
-msgstr "Биом острова"
 
 msgid "Ocean"
 msgstr "Океан"
@@ -2132,7 +2063,7 @@ msgstr ""
 "нормально, как и монстры."
 
 msgid "Flower Forest"
-msgstr ""
+msgstr "Цветочный лес"
 
 msgid ""
 "The flower forest biome.\n"
@@ -2140,10 +2071,15 @@ msgid ""
 "normally and hostile\n"
 "mobs will spawn."
 msgstr ""
+"Биом цветочного леса.\n"
+"Мирные мобы появляются \n"
+"нормально, как и монстры."
 
+#, fuzzy
 msgid "Deep Ocean"
-msgstr ""
+msgstr "Океан"
 
+#, fuzzy
 msgid ""
 "The deep-ocean biome is an advanced\n"
 "biome. Passive mobs like animals will\n"
@@ -2151,6 +2087,10 @@ msgid ""
 "(including Guardians) will\n"
 "spawn normally."
 msgstr ""
+"Биом океана - простой,\n"
+"стандартный биом для всех островов.\n"
+"Мирные мобы не появляются.\n"
+"Монстры появляются нормально."
 
 msgid "Ice Plains"
 msgstr ""
@@ -2160,6 +2100,101 @@ msgid ""
 "Mobs will spawn naturally.\n"
 "including polar-bears"
 msgstr ""
+
+msgid "Permissions"
+msgstr "Разрешения"
+
+#, java-format
+msgid "{0} <{1}>"
+msgstr "{0} <{1}>"
+
+msgid "§9Player Permissions"
+msgstr ""
+
+msgid ""
+"§eClick here to return to\n"
+"§eyour island group's info."
+msgstr ""
+"§eНажмите для возврата\n"
+"§eк информации о группе острова."
+
+msgid ""
+"§eHover over an icon to view\n"
+"§ea permission. Change the\n"
+"§epermission by clicking it."
+msgstr ""
+"§eНаведите на иконку для просмотра\n"
+"§eправ. Изменить их\n"
+"§eможно по клику."
+
+msgid "§fThis player §acan"
+msgstr "§fИгрок §aможет"
+
+msgid "Click here to remove this permission."
+msgstr "Нажмите для запрещения"
+
+msgid "§fThis player §ccannot"
+msgstr "§fИгрок §cне может"
+
+msgid "Click here to grant this permission."
+msgstr "Нажмите для разрешения"
+
+msgid "Island Group Members"
+msgstr "Участники группы островов"
+
+#, java-format
+msgid "Group Members: §2{0}§7/§e{1}"
+msgstr "Участники группыs: §2{0}§7/§e{1}"
+
+msgid "§aMore players can be invited to this island."
+msgstr "§aМожно пригласить еще участников."
+
+msgid "§cThis island is full."
+msgstr "§cОстров заполнен."
+
+msgid ""
+"§eHover over a player's icon to\n"
+"§eview their permissions. The\n"
+"§eleader can change permissions\n"
+"§eby clicking a player's icon."
+msgstr ""
+"§eНаведите на иконку игрока\n"
+"§eдля просмотра его прав.\n"
+"§eВладелец острова может изменять\n"
+"§eих по клику на иконке игрока."
+
+msgid "Leader"
+msgstr "Хозяин"
+
+msgid "Member"
+msgstr "Участник"
+
+#, java-format
+msgid "Can {0}"
+msgstr "Может {0}"
+
+#, java-format
+msgid "Cannot {0}"
+msgstr "Не может {0}"
+
+msgid "§e<Click to change this player's permissions>"
+msgstr "§e<нажмите для изменения прав игрока>"
+
+msgid "Island Log"
+msgstr "Журнал острова"
+
+msgid ""
+"§eClick here to return to\n"
+"§ethe main island screen."
+msgstr ""
+"§eНажмите для возврата\n"
+"§eв главное меню острова."
+
+msgid "§e§lIsland Log"
+msgstr "§e§lЖурнал острова"
+
+msgid "Island Biome"
+msgstr "Биом острова"
 
 #, java-format
 msgid "Biome: {0}"
@@ -2491,17 +2526,17 @@ msgid "§aClick to restart!"
 msgstr ""
 
 msgid "Caps On"
-msgstr ""
+msgstr "Caps On"
 
 msgid "§9Text Editor"
-msgstr ""
+msgstr "§9Текстовый редактор"
 
 #, java-format
 msgid "Too many requests for Mojangs API ({0} within {1}), sleeping {2}"
 msgstr ""
 
 msgid "§eSending you to spawn."
-msgstr ""
+msgstr "§eОтправка вам на нерест."
 
 msgid "§eThe island has been §cLOCKED§e."
 msgstr ""
@@ -2570,12 +2605,6 @@ msgstr "§aТочка дома на вашем острове установле
 msgid "§4Your current location is not a safe home-location."
 msgstr "§4Ваше текущее место не безопасно для точки дома."
 
-#, java-format
-msgid ""
-"§7The pixies are busy changing the biome of your island to §9{0}§7, be "
-"patient."
-msgstr ""
-
 msgid "§cYour island is in the process of generating, you cannot create now."
 msgstr "§cВаш остров в процессе создания. Вы не можете создать сейчас."
 
@@ -2627,4 +2656,291 @@ msgstr "с"
 
 #, java-format
 msgid "{0,number,0}:{1,number,00}.{2,number,000}"
-msgstr ""
+msgstr "{0,number,0}:{1,number,00}.{2,number,000}"
+
+#~ msgid "§eThis challenge requires the following:"
+#~ msgstr "§eЭто задание требует:"
+
+#~ msgid "§eUse /c <name> to view information about a challenge."
+#~ msgstr "§eВведите /c <name> для просмотра информации по заданию."
+
+#~ msgid "§eUse /c complete <name> to attempt to complete that challenge."
+#~ msgstr "§eВведите /c complete <name> для подтверждения выполения задания."
+
+#~ msgid "§eChallenges will have different colors depending on if they are:"
+#~ msgstr "§eЗадания будут разноцветными, если они:"
+
+#~ msgid "Incomplete"
+#~ msgstr "Не завершено"
+
+#~ msgid "Completed (not repeatable)"
+#~ msgstr "Завершено (не повторяемо)"
+
+#~ msgid "Completed(repeatable)"
+#~ msgstr "Завершено(повторяемо)"
+
+#~ msgid "Complete {0} more {1} challenges"
+#~ msgstr "Выполнено {0} более {1} заданий"
+
+#~ msgid "§4Challenge has already been completed"
+#~ msgstr "§4Задание уже выполнено"
+
+#~ msgid "§echallenge: {0} has been completed for {1}"
+#~ msgstr "§eзадание: {0} выполнено игроком {1}"
+
+#~ msgid "§4Sorry!§e A protect-all is already running. Let it complete first."
+#~ msgstr "§4Извините!§e Защита всего уже включена. Завершите сначала."
+
+#~ msgid "§aTeleporting to {0}s island."
+#~ msgstr "§aТелепортация на остров {0}."
+
+#~ msgid "§cPURGE:§9 Purged {0}/{1} {2,number,###}%"
+#~ msgstr "§cПРОДУВКА:§9 Очищено {0}/{1} {2,number,###}%"
+
+#~ msgid "§cYou have misspelled the biome name."
+#~ msgstr "§cНеверно указано название биома."
+
+#~ msgid "§4"
+#~ msgstr "§4"
+
+#~ msgid "§eYou can not use another islands portals! Shame on you - cheater!"
+#~ msgstr "§eВы не можете использовать портал на другие острова! Вы - читер!"
+
+#~ msgid "§eTrading isn't allowed on other islands. Go home - cheater!"
+#~ msgstr "§eТорговля не разрешена на других островах. Идите домой - читер!"
+
+#~ msgid "§eConverted "
+#~ msgstr "§eКонвертировано"
+
+#~ msgid "§4Top ten list is empty! (perhaps the generation failed?)"
+#~ msgstr "§4Список ТОП 10 пуст! (возможно ошибка генерации?)"
+
+#~ msgid "Page {0,number,integer}"
+#~ msgstr "страница {0,number,integer}"
+
+#~ msgid "§c-"
+#~ msgstr "§c-"
+
+#~ msgid "§a+"
+#~ msgstr "§a+"
+
+#~ msgid "§c-1000"
+#~ msgstr "§c-1000"
+
+#~ msgid "§c-100"
+#~ msgstr "§c-100"
+
+#~ msgid "§c-10"
+#~ msgstr "§c-10"
+
+#~ msgid "§c-1"
+#~ msgstr "§c-1"
+
+#~ msgid "§a+1"
+#~ msgstr "§a+1"
+
+#~ msgid "§a+10"
+#~ msgstr "§a+10"
+
+#~ msgid "§a+100"
+#~ msgstr "§a+100"
+
+#~ msgid "§a+1000"
+#~ msgstr "§a+1000"
+
+#~ msgid "change the islands's biome."
+#~ msgstr "изменять биом острова"
+
+#~ msgid ""
+#~ "set the island's warp,\n"
+#~ "which allows non-group\n"
+#~ "members to teleport to\n"
+#~ " the island"
+#~ msgstr ""
+#~ "Установка точки перемещения,\n"
+#~ "которая позволит приходить\n"
+#~ "игрокам - не участникам\n"
+#~ "острова"
+
+#~ msgid ""
+#~ "toggle the\n"
+#~ "island's warp, allowing them\n"
+#~ "to turn it on or off at anytime.\n"
+#~ "but not set the location."
+#~ msgstr ""
+#~ "переключение\n"
+#~ "точки перемещения возможно\n"
+#~ "выключать и включать в любое время,\n"
+#~ "но не устанавливать место перемещения."
+
+#~ msgid "§hPlayer Permissions"
+#~ msgstr "§hПрава игрока"
+
+#~ msgid "{0} ({1}/{2})"
+#~ msgstr "{0} ({1}/{2})"
+
+#~ msgid "§a§lIsland Help"
+#~ msgstr "§a§lПомощь"
+
+#~ msgid ""
+#~ "Need help with skyblock\n"
+#~ "concepts or commands? View\n"
+#~ "details about them here.\n"
+#~ "§e§lClick here for help!"
+#~ msgstr ""
+#~ "Нужна помощь по\n"
+#~ "концепции или командам? Смотрите\n"
+#~ "подробнее об этом здесь.\n"
+#~ "§e§lНажмите для помощи!"
+
+#~ msgid ""
+#~ "When your warp is activated,\n"
+#~ "other players will be taken to\n"
+#~ "this point when they teleport\n"
+#~ "to your island.\n"
+#~ "§e§lClick here to change."
+#~ msgstr ""
+#~ "Когда перемещение включено\n"
+#~ "другие игроки будут появляться\n"
+#~ "в этом месте, когда телепортируются\n"
+#~ "к вам на остров.\n"
+#~ "§e§lНажмите, чтобы изменить."
+
+#~ msgid "§4You are not part of an island. Returning you the spawn area!"
+#~ msgstr "§4Вы не участник острова. Возврат в на спавн!"
+
+#~ msgid "§eYay! We found a vacancy closer to spawn. §9Clearing it for you..."
+#~ msgstr ""
+#~ "§eО-о-о! Мы нашли вакантное место недалеко от спавна. §9Очищается для "
+#~ "вас..."
+
+#~ msgid "§7Name: §b{0}\n"
+#~ msgstr "§7Название: §b{0}\n"
+
+#~ msgid "§7Version: §b{0}\n"
+#~ msgstr "§7Версия: §b{0}\n"
+
+#~ msgid "§7Description: §b{0}\n"
+#~ msgstr "§7Описание: §b{0}\n"
+
+#~ msgid "§7Language: §b{0} ({1})\n"
+#~ msgstr "§7Язык: §b{0} ({1})\n"
+
+#~ msgid "§7------------------------------\n"
+#~ msgstr "§7------------------------------\n"
+
+#~ msgid "§7Server: §e{0} {1}\n"
+#~ msgstr "§7Сервер: §e{0} {1}\n"
+
+#~ msgid "§2ENABLED"
+#~ msgstr "§2ВКЛЮЧЕНО"
+
+#~ msgid "§4DISABLED"
+#~ msgstr "§4ОТКЛЮЧЕНО"
+
+#~ msgid "§7Name: §d{0} ({1}§d)\n"
+#~ msgstr "§7имя: §d{0} ({1})\n"
+
+#~ msgid "§7Version: §d{0}\n"
+#~ msgstr "§7Версия: §d{0}\n"
+
+#~ msgid "§7Usage: {0}"
+#~ msgstr "§7Введите: {0}"
+
+#, fuzzy
+#~ msgid "Command"
+#~ msgstr "Может {0}"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "§7Описание: §b{0}\n"
+
+#, fuzzy
+#~ msgid "Permission"
+#~ msgstr "Права доступа"
+
+#, fuzzy
+#~ msgid "  alias: {0}"
+#~ msgstr "Биом: {0}"
+
+#, fuzzy
+#~ msgid "   perm: {0}"
+#~ msgstr "Звание: {0}"
+
+#, fuzzy
+#~ msgid "-------------"
+#~ msgstr "§7------------------------------\n"
+
+#, fuzzy
+#~ msgid "Usage: {0}"
+#~ msgstr "§7Введите: {0}"
+
+#, fuzzy
+#~ msgid "Permission: {0}"
+#~ msgstr "Права доступа"
+
+#~ msgid "§eYou have revoked your trust in §a{0}§e on your island."
+#~ msgstr "§eВы больше не доверяете §a{0}§e на своем острове."
+
+#~ msgid "§eYou have trusted §4{0}§e on your island."
+#~ msgstr "§eВы доверяете §4{0}§e на своем острове."
+
+#, fuzzy
+#~ msgid "§eConfiguration saved, use §9/usb reload§e to activate changes."
+#~ msgstr "§eКонфигурация перезагружена из файла."
+
+#, fuzzy
+#~ msgid "ms"
+#~ msgstr "м"
+
+#~ msgid "The player is not currently online"
+#~ msgstr "Игрок сейчас оффлайн"
+
+#~ msgid "§4You don't have enough of the required item(s)!"
+#~ msgstr "§4У вас недостаточно требуемых предметов!"
+
+#~ msgid "controls the currently running async tasks"
+#~ msgstr "контроль запущенных параллельных задач"
+
+#~ msgid "lists currently running tasks"
+#~ msgstr "список запущенных задач"
+
+#~ msgid "§cNo running tasks"
+#~ msgstr "§cНет запущенных задач"
+
+#~ msgid "§e[%2d]§7: %s\n"
+#~ msgstr "§e[%2d]§7: %s\n"
+
+#~ msgid "cancels the task with the given number."
+#~ msgstr "отмена задачи по указанному номеру"
+
+#~ msgid "§4Could not cancel "
+#~ msgstr "§4Отмена невозможна"
+
+#~ msgid "§4A valid number must be supplied as task-id."
+#~ msgstr "§4В номере задачи должно указываться корректное число."
+
+#~ msgid "§4No tasks detected.§e Try §b/usb async list§e first."
+#~ msgstr "§4Задачи не обнаружены.§e Попробуйте §b/usb async list§e сначала."
+
+#~ msgid "§4A number between 1 and "
+#~ msgstr "§4Номер между 1 и "
+
+#, fuzzy
+#~ msgid "{0}§e completed challenge §9{1}"
+#~ msgstr "§eДля завершения задания введите §f/c c {0}"
+
+#, fuzzy
+#~ msgid ".displayName"
+#~ msgstr "показать журнал"
+
+#, fuzzy
+#~ msgid "§eIn queue, §cwaiting...§e{0,number,###}%"
+#~ msgstr "§eТекущий уровень: §a{0,number,##.#}"
+
+#, fuzzy
+#~ msgid "reload the region chunks"
+#~ msgstr "загрузка чанков региона"
+
+#~ msgid "{0} <Permissions>"
+#~ msgstr "{0} <Права>"
